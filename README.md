@@ -1,6 +1,6 @@
 # Serverless TODO
 
-To implement this project, you need to implement a simple TODO application using AWS Lambda and Serverless framework. Search for all comments starting with the `TODO:` in the code to find the placeholders that you need to implement.
+A simple TODO app using AWS Lambda and Serverless framework.
 
 # Functionality of the application
 
@@ -18,6 +18,24 @@ The application should store TODO items, and each TODO item contains the followi
 * `attachmentUrl` (string) (optional) - a URL pointing to an image attached to a TODO item
 
 You might also store an id of a user who created a TODO item.
+
+
+## Project Overview Preview
+
+
+![Store List](https://i.ibb.co/GMvZCY5/UI-login.gif)
+
+X-RAY
+
+![X-RAY](https://i.ibb.co/8jh3Qvb/X-RAY.png)
+
+![X-RAY](https://i.ibb.co/b62KnV7/X-RAY2.png)
+
+
+![X-RAY](https://i.ibb.co/JsDP0Lc/serverless-endpoint.png)
+
+![X-RAY](https://i.ibb.co/VQqR13q/api-gate-way.png)
+
 
 ## Prerequisites
 
@@ -185,9 +203,6 @@ logger.info('User was authorized', {
 
 Once you have finished developing your application, please set `apiId` and Auth0 parameters in the `config.ts` file in the `client` folder. A reviewer would start the React development server to run the frontend that should be configured to interact with your serverless application.
 
-**IMPORTANT**
-
-*Please leave your application running until a submission is reviewed. If implemented correctly it will cost almost nothing when your application is idle.*
 
 # Suggestions
 
@@ -289,3 +304,9 @@ Right click on the imported collection to set variables for the collection:
 Provide variables for the collection (similarly to how this was done in the course):
 
 ![Alt text](images/import-collection-5.png?raw=true "Image 5")
+
+## Credit
+
+Ivan Mushketyk instructor of serveless project.
+ Udacity.
+<https://www.ALX-t.com/>
